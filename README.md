@@ -54,13 +54,13 @@ Jika langkah diacak → teh tidak jadi. Sama halnya dengan program.
   - 🔲 **Persegi Panjang** → Proses (hitung, operasi)  
 
 **Contoh Flowchart: Menghitung Luas Persegi Panjang**  
-https://id-static.z-dn.net/files/d82/29f80e71c1ff72458a040e763dcdddce.png
+![Deskripsi Gambar](https://id-static.z-dn.net/files/d82/29f80e71c1ff72458a040e763dcdddce.png)
+
 
 
 ---
 
 ### 3. Python Dasar
-Bahasa Python cocok untuk pemula. Sintaks sederhana:
 
 ```python
 # Program Menghitung Luas Persegi Panjang
