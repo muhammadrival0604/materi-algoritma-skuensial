@@ -18,11 +18,11 @@ Setiap langkah bergantung pada penyelesaian langkah sebelumnya, memastikan prose
 ---
 
 ## Langkah-Langkah dalam Algoritma Sekuensial
-1. **Awal** – Tentukan titik awal proses.  
-2. **Masukan** – Kumpulkan data yang dibutuhkan.  
-3. **Pengolahan** – Lakukan operasi/perhitungan secara berurutan.  
-4. **Keluaran** – Tampilkan atau simpan hasil.  
-5. **Akhir** – Hentikan proses.  
+1. **Awal (Start)** – Tentukan titik awal proses.  
+2. **Masukan (Input)** – Kumpulkan data yang dibutuhkan.  
+3. **Pengolahan (Process)** – Lakukan operasi/perhitungan secara berurutan.  
+4. **Keluaran (Output)** – Tampilkan atau simpan hasil.  
+5. **Akhir (End)** – Hentikan proses.  
 
 ---
 
@@ -67,10 +67,10 @@ Akhir
 ```python
 # Program menghitung luas persegi panjang
 
-p = int(input("Masukkan panjang: "))
-l = int(input("Masukkan lebar: "))
+panjang = int(input("Masukkan panjang: "))
+luas = int(input("Masukkan lebar: "))
 
-luas = p * l
+luas = panjang * lebar
 
 print("Luas persegi panjang =", luas)
 ````
