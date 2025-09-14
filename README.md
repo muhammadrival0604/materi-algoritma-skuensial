@@ -1,4 +1,3 @@
-```markdown
 # Algoritma Sekuensial
 
 Algoritma sekuensial adalah jenis algoritma yang langkah-langkahnya dieksekusi satu demi satu dalam urutan linier.  
