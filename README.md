@@ -1,3 +1,5 @@
+---
+
 ```markdown
 # Algoritma Sekuensial
 
@@ -64,45 +66,63 @@ Akhir
 ↓
 (Oval) Selesai
 
-```
+````
+
+---
+
+## Contoh Program Python
+```python
+# Program menghitung luas persegi panjang
+
+p = int(input("Masukkan panjang: "))
+l = int(input("Masukkan lebar: "))
+
+luas = p * l
+
+print("Luas persegi panjang =", luas)
+````
 
 ---
 
 ## Aplikasi Algoritma Sekuensial
-1. **Perhitungan Matematika Sederhana** – penambahan, pengurangan, perkalian.  
-2. **Pengolahan Data** – mengurutkan atau menyaring data langkah demi langkah.  
-3. **Otomatisasi** – tugas berurutan seperti pengisian formulir atau entri data.  
+
+1. **Perhitungan Matematika Sederhana** – penambahan, pengurangan, perkalian.
+2. **Pengolahan Data** – mengurutkan atau menyaring data langkah demi langkah.
+3. **Otomatisasi** – tugas berurutan seperti pengisian formulir atau entri data.
 
 ---
 
 ## Keuntungan Algoritma Sekuensial
-1. **Kesederhanaan** – mudah dirancang, diterapkan, dan di-debug.  
-2. **Prediktabilitas** – hasil konsisten.  
-3. **Efisiensi (untuk tugas sederhana)** – bekerja baik untuk masalah kecil.  
+
+1. **Kesederhanaan** – mudah dirancang, diterapkan, dan di-debug.
+2. **Prediktabilitas** – hasil konsisten.
+3. **Efisiensi (untuk tugas sederhana)** – bekerja baik untuk masalah kecil.
 
 ---
 
 ## Keterbatasan Algoritma Sekuensial
-1. **Kurangnya Paralelisme** – tidak efisien untuk tugas bersamaan.  
-2. **Skalabilitas** – bisa lambat untuk masalah besar.  
-3. **Ketergantungan** – setiap langkah bergantung pada langkah sebelumnya.  
+
+1. **Kurangnya Paralelisme** – tidak efisien untuk tugas bersamaan.
+2. **Skalabilitas** – bisa lambat untuk masalah besar.
+3. **Ketergantungan** – setiap langkah bergantung pada langkah sebelumnya.
 
 ---
 
 ## Perbandingan dengan Algoritma Paralel
 
-| Aspek        | Algoritma Sekuensial            | Algoritma Paralel                        |
-|--------------|---------------------------------|------------------------------------------|
-| **Eksekusi** | Langkah dijalankan satu per satu| Beberapa langkah berjalan bersamaan      |
-| **Kecepatan**| Lebih lambat untuk masalah besar| Lebih cepat untuk tugas yang bisa paralel|
-| **Kompleksitas** | Lebih mudah dirancang         | Lebih kompleks karena sinkronisasi       |
+| Aspek                | Algoritma Sekuensial                 | Algoritma Paralel                           |
+| -------------------- | ------------------------------------ | ------------------------------------------- |
+| **Eksekusi**         | Langkah dijalankan satu per satu     | Beberapa langkah berjalan bersamaan         |
+| **Kecepatan**        | Lebih lambat untuk masalah besar     | Lebih cepat untuk tugas yang bisa paralel   |
+| **Kompleksitas**     | Lebih mudah dirancang                | Lebih kompleks karena sinkronisasi          |
 | **Kasus Penggunaan** | Cocok untuk masalah kecil dan linear | Cocok untuk tugas independen berskala besar |
 
 ---
 
 ## Kesimpulan
-Algoritma sekuensial sangat penting dalam pemrograman dasar.  
+
+Algoritma sekuensial sangat penting dalam pemrograman dasar.
 Mudah dan efektif untuk masalah kecil atau linear, namun memiliki keterbatasan pada kasus yang membutuhkan efisiensi tinggi atau pemrosesan paralel.
+
 ```
 
----
