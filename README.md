@@ -1,72 +1,108 @@
-# 📘 Materi Ajar: Algoritma Sekuensial dengan Python & Flowgorithm
+```markdown
+# Algoritma Sekuensial
 
-## 🏫 Informasi Umum
-- **Mata Pelajaran**: Dasar-Dasar Pengembangan Perangkat Lunak dan Gim  
-- **Elemen**: Pemrograman Terstruktur  
-- **Kelas/Fase**: X / Fase E  
-- **Model Pembelajaran**: Problem Based Learning (PBL) + Deep Learning  
-- **Alokasi Waktu**: 2 JP x 45 menit  
-- **Penyusun**: M. Rival Ridautal Lillah, ST  
-- **Tahun Pelajaran**: 2025/2026  
+Algoritma sekuensial adalah jenis algoritma yang langkah-langkahnya dieksekusi satu demi satu dalam urutan linier.  
+Setiap langkah bergantung pada penyelesaian langkah sebelumnya, memastikan proses mengalir secara logis dari awal hingga akhir tanpa eksekusi paralel.
 
 ---
 
-## 🎯 Capaian & Tujuan Pembelajaran
-- **Capaian**: Peserta didik mampu menerapkan prinsip pemrograman terstruktur dengan algoritma sekuensial, memvisualisasikan dengan Flowgorithm, dan mengimplementasikan dengan Python.  
-- **Tujuan**:  
-  1. Mengidentifikasi konsep algoritma sekuensial.  
-  2. Menyusun flowchart dengan Flowgorithm.  
-  3. Mengimplementasikan program sekuensial dengan Python.  
-  4. Melakukan debugging sederhana pada program.  
+## Karakteristik Algoritma Sekuensial
+1. **Eksekusi Linier**  
+   Langkah-langkah dilakukan satu per satu dalam urutan yang telah ditetapkan.  
+2. **Deterministik**  
+   Urutan operasinya tetap, menghasilkan hasil yang dapat diprediksi.  
+3. **Utas Tunggal Eksekusi**  
+   Hanya satu tugas yang diproses pada satu waktu.  
+4. **Kesederhanaan**  
+   Mudah dipahami dan diterapkan.  
 
 ---
 
-## 💡 Pertanyaan Pemantik
-1. Bagaimana cara menjelaskan aktivitas sehari-hari (misalnya membuat teh) dalam bentuk algoritma sekuensial?  
-2. Mengapa Flowgorithm penting sebelum menulis kode Python?  
-3. Apa yang terjadi jika urutan algoritma sekuensial tidak sesuai?  
-4. Bagaimana cara memastikan program Python sesuai logika algoritma?  
+## Langkah-Langkah dalam Algoritma Sekuensial
+1. **Awal** – Tentukan titik awal proses.  
+2. **Masukan** – Kumpulkan data yang dibutuhkan.  
+3. **Pengolahan** – Lakukan operasi/perhitungan secara berurutan.  
+4. **Keluaran** – Tampilkan atau simpan hasil.  
+5. **Akhir** – Hentikan proses.  
 
 ---
 
-## 📘 Materi Pokok
+## Contoh Algoritma Sekuensial
+**Soal:** Hitung luas persegi panjang.  
 
-### 1. Konsep Algoritma Sekuensial
-- Algoritma = urutan langkah logis untuk menyelesaikan masalah.  
-- Sekuensial = setiap langkah dijalankan **berurutan** dari awal sampai akhir tanpa percabangan/perulangan.  
-
-**Contoh kehidupan nyata**:  
-1. Ambil gelas  
-2. Masukkan teh celup  
-3. Tuangkan air panas  
-4. Aduk  
-5. Minum  
-
-Jika langkah diacak → teh tidak jadi. Sama halnya dengan program.
+1. Awal  
+2. Masukkan panjang (P) dan lebar (L).  
+3. Hitung luas: `Luas = P × L`.  
+4. Keluarkan hasil luas.  
+5. Akhir  
 
 ---
 
-### 2. Flowgorithm
-- **Flowgorithm** adalah aplikasi untuk menggambar flowchart.  
-- Simbol dasar:  
-  - ⭕ **Oval** → Start/End  
-  - 🔷 **Jajar Genjang** → Input/Output  
-  - 🔲 **Persegi Panjang** → Proses (hitung, operasi)  
+## Pseudocode
+```
 
-**Contoh Flowchart: Menghitung Luas Persegi Panjang**  
-![Deskripsi Gambar](https://id-static.z-dn.net/files/d82/29f80e71c1ff72458a040e763dcdddce.png)
+Awal
+Masukan P, L
+Luas = P \* L
+Keluaran Luas
+Akhir
 
-
+```
 
 ---
 
-### 3. Python Dasar
+## Representasi Diagram Alir
+```
 
-```python
-# Program Menghitung Luas Persegi Panjang
-panjang = int(input("Masukkan panjang: "))
-lebar = int(input("Masukkan lebar: "))
+(Oval) Mulai
+↓
+(Jajar Genjang) Masukan P, L
+↓
+\[Persegi Panjang] Luas = P \* L
+↓
+(Jajar Genjang) Keluaran Luas
+↓
+(Oval) Selesai
 
-luas = panjang * lebar
-print("Luas persegi panjang adalah:", luas)
+```
 
+---
+
+## Aplikasi Algoritma Sekuensial
+1. **Perhitungan Matematika Sederhana** – penambahan, pengurangan, perkalian.  
+2. **Pengolahan Data** – mengurutkan atau menyaring data langkah demi langkah.  
+3. **Otomatisasi** – tugas berurutan seperti pengisian formulir atau entri data.  
+
+---
+
+## Keuntungan Algoritma Sekuensial
+1. **Kesederhanaan** – mudah dirancang, diterapkan, dan di-debug.  
+2. **Prediktabilitas** – hasil konsisten.  
+3. **Efisiensi (untuk tugas sederhana)** – bekerja baik untuk masalah kecil.  
+
+---
+
+## Keterbatasan Algoritma Sekuensial
+1. **Kurangnya Paralelisme** – tidak efisien untuk tugas bersamaan.  
+2. **Skalabilitas** – bisa lambat untuk masalah besar.  
+3. **Ketergantungan** – setiap langkah bergantung pada langkah sebelumnya.  
+
+---
+
+## Perbandingan dengan Algoritma Paralel
+
+| Aspek        | Algoritma Sekuensial            | Algoritma Paralel                        |
+|--------------|---------------------------------|------------------------------------------|
+| **Eksekusi** | Langkah dijalankan satu per satu| Beberapa langkah berjalan bersamaan      |
+| **Kecepatan**| Lebih lambat untuk masalah besar| Lebih cepat untuk tugas yang bisa paralel|
+| **Kompleksitas** | Lebih mudah dirancang         | Lebih kompleks karena sinkronisasi       |
+| **Kasus Penggunaan** | Cocok untuk masalah kecil dan linear | Cocok untuk tugas independen berskala besar |
+
+---
+
+## Kesimpulan
+Algoritma sekuensial sangat penting dalam pemrograman dasar.  
+Mudah dan efektif untuk masalah kecil atau linear, namun memiliki keterbatasan pada kasus yang membutuhkan efisiensi tinggi atau pemrosesan paralel.
+```
+
+---
