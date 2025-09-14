@@ -51,12 +51,10 @@ Akhir
 ---
 
 ## Representasi Diagram Alir
-```
 
 ![Flowchart Algoritma Sekuensial](https://drive.google.com/uc?export=view&id=1P1NOFeyi-F0fCjBNLoy07IMhUofSrT2O)
 
 
-````
 
 ---
 
