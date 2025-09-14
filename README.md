@@ -53,15 +53,8 @@ Akhir
 ## Representasi Diagram Alir
 ```
 
-(Oval) Mulai
-↓
-(Jajar Genjang) Masukan P, L
-↓
-\[Persegi Panjang] Luas = P \* L
-↓
-(Jajar Genjang) Keluaran Luas
-↓
-(Oval) Selesai
+![Flowchart Algoritma Sekuensial](https://drive.google.com/uc?export=view&id=1P1NOFeyi-F0fCjBNLoy07IMhUofSrT2O)
+
 
 ````
 
