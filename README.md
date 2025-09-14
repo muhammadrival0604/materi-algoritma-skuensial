@@ -40,11 +40,11 @@ Setiap langkah bergantung pada penyelesaian langkah sebelumnya, memastikan prose
 ## Pseudocode
 ```
 
-Awal
-Masukan panjang, luas
+Start
+Input panjang, luas
 luas = panjang * lebar
-Keluaran luas
-Akhir
+Output luas
+End
 
 ```
 
