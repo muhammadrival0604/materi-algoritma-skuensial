@@ -30,8 +30,8 @@ Setiap langkah bergantung pada penyelesaian langkah sebelumnya, memastikan prose
 **Soal:** Hitung luas persegi panjang.  
 
 1. Awal  
-2. Masukkan panjang (P) dan lebar (L).  
-3. Hitung luas: `Luas = P × L`.  
+2. Masukkan panjang dan lebar.  
+3. Hitung luas: `luas = panjang × lebar`.  
 4. Keluarkan hasil luas.  
 5. Akhir  
 
@@ -41,9 +41,9 @@ Setiap langkah bergantung pada penyelesaian langkah sebelumnya, memastikan prose
 ```
 
 Awal
-Masukan P, L
-Luas = P \* L
-Keluaran Luas
+Masukan panjang, luas
+luas = panjang * lebar
+Keluaran luas
 Akhir
 
 ```
