@@ -52,7 +52,11 @@ Akhir
 
 ## Representasi Diagram Alir
 
-![Flowchart Algoritma Sekuensial](https://drive.google.com/uc?export=view&id=1P1NOFeyi-F0fCjBNLoy07IMhUofSrT2O)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1P1NOFeyi-F0fCjBNLoy07IMhUofSrT2O" 
+       alt="Flowchart Algoritma Sekuensial" width="400"/>
+</p>
+
 
 
 
